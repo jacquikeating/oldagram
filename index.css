@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* LAYOUT ---------------------------- */
+header {
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 30px;
+}
+
+.post {
+    width: 375px;
+    margin: 0 auto 20px auto;
+    display: block;
+    padding-bottom: 16px;
+    border-bottom: 1px solid lightgray;
+}
+
+.op-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* IMAGES ---------------------------- */
+.logo {
+    height: 40px;
+}
+
+.user-avatar,
+.op-avatar {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.post-img {
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 12px 0;
+}
+
+.icon {
+    height: 26px;
+    margin-bottom: 12px;
+    margin-right: 5px;
+}
+
+.icon:hover, .icon:focus {
+    opacity: 0.5;
+}
+
+
+/* TYPOGRAPHY ---------------------------- */
+.op-name-loc a {
+    display: block;
+}
+
+.op-fullname-link {
+    font-weight: 700;
+}
+
+.likes {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.op-username {
+    font-weight: 700;
+    margin-right: 0.2em;
+}
+
+p, a {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.location-link {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.username-and-caption {
+    margin-bottom: 8px;
+}
+
+.comments {
+    color: gray;
+    display: block;
+    line-height: 22px;
+}
